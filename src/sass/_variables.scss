@@ -1,0 +1,62 @@
+// $blue:    #0d6efd !default;
+$blue:    #809BCE !default;
+$blue-light:    rgb(159, 180, 190) !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+$independence:  #3F3D56 !default;
+$blackcoffee:  #3E363F !default;
+$lightperiwinkle:  #D0CDE1 !default;
+$dimgray:  #6C6C6C !default;
+$whitesmoke:  whitesmoke !default;
+$gray : #637074 !default;
+$tisle: #96C5F7 !default;
+
+
+
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  // "white":      $white,
+  // "gray":       $gray-600,
+  // "gray-dark":  $gray-800,
+  "independence" : $independence
+) !default;
+
+$primary:             $blue !default;
+$primary-light:       $blue-light !default;
+$secondary:     $gray !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $whitesmoke !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+) !default;
+
+
+$body-bg : $light;
+$border: 1px solid $primary;
+$border-radius: 0.5rem;

@@ -1,0 +1,8 @@
+@import "../../../sass/variables";
+@import "../../../styles.scss";
+
+.resume-template {
+  height: $image-xxl;
+  border : 1px solid $secondary;
+  background-color: white;
+}

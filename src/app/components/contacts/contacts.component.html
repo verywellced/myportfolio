@@ -1,0 +1,23 @@
+<div class="container-fluid fill">
+
+    <div class="row my-row-center">
+      <div class="col-md-4 my-col text-center mt-0 mt-sm-3">
+          <div class="container-img m-auto">
+              <img  class= "img-md" src ="./assets/images/contact.png">
+          </div>
+      </div>
+      <div class="col-md-8 my-col mt-3 pr-2 pl-2">
+        <h1 class= "main-text" style="line-height: 0.8;"> Contact Me!</h1>
+        <div class="contacts-container mt-4">
+            <a class="contact-box" *ngFor ="let contact of contacts" href="{{contact.link}}"  target="_blank">
+              <div class="container-circle">
+                <img src="{{contact.imgSrc}}" alt="{{contact.imgSrc}}">
+              </div>
+              <div class="container-text">
+                <p class= "normal-text">{{contact.title}} </p>
+                <p class= "small-text">{{contact.info}}</p>
+              </div>
+            </a>
+        </div>
+      </div>
+  </div>
