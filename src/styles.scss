@@ -12,6 +12,7 @@
 
 .fill {
   display: grid;
+  width: 100%;
   min-height: calc(100vh - 142px);
   height: calc(100vh - 142px);
 
@@ -75,7 +76,7 @@ $image-xs : 3rem;
 $image-sm : 5rem;
 $image-md : 15rem;
 $image-lg : 20rem;
-$image-xl : 25rem;
+$image-xl : 35rem;
 $image-xxl : 45rem;
 
 //Margin Sizes
